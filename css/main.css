@@ -258,6 +258,9 @@ section .right-side {
   margin-top: 44px;
   cursor: pointer;
 }
+.shop:hover {
+  background-color: #3e8e42
+}
 .shop1 {
   width: 140px;
   height: 40px;
