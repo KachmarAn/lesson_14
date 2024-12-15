@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="./css/reset.css" rel="stylesheet">
+    <link href="./css/main.css" rel="stylesheet">
+</head>
+
+<body class="registr">
+    <div class="preloader">
+        <div class="spinner"></div>
+    </div>
+    <div class="registration">
+        <p>Login <span class="reg">| Register</span></p>
+        <h3> Enter your email and password to register.</h3>
+        <div class="inp">
+            <form>
+                <input class="log" type="text" name="username" placeholder="Username" required>
+                <input class="email" type="text" name="email" placeholder="Enter your email address" required>
+                <input class="pas1" type="password" name="password" placeholder="Password" required>
+                <input class="pas2" type="password" name="password" placeholder="Confirm Password" required>
+                <button class="sub">Register</button>
+                <h3> Or register with</h3>
+                <button class="google">
+                    <svg width="20" height="20" class="google-icon">
+                        <use href="./sprite.svg#google"></use>
+                    </svg>
+                    Continue with Google
+                </button>
+                <button class="fb">
+                    <svg width="20" height="20" class="fb-icon">
+                        <use href="./sprite.svg#fb"></use>
+                    </svg>
+                    Continue with Facebook
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
